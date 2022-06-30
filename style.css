@@ -1,0 +1,120 @@
+*{
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    color: black;
+}
+.headerli{
+    list-style: none;
+    padding: 0;
+}
+.headerli a{
+    color: black;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+.search-area{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(180, 126, 54);
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: aqua;
+}
+.search-img{
+    position: absolute;
+}
+.input-enter{
+    display: flex;
+    justify-content: center;
+    background-color: darkmagenta;
+    width: 100%;
+}
+.input-area{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.input{
+    border-radius: 20px;
+    width: 528px;
+    border-style: solid;
+    border-color: #bdc1c6;
+    border-width: 1px;
+    height: 44px;
+    /* position: relative; */
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: blue;
+}
+.googlesearch{
+    border-radius: 4px;
+    border: 0;
+    padding: 10px 15px ;
+    margin: 0 5px;
+    height: 36px;
+    min-width: 54px;
+}
+.feelinglucky{
+    border-radius: 4px;
+    border: 0;
+    padding: 10px 15px ;
+    margin: 0 5px;
+    height: 36px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px 20px 20px;
+}
+.footer-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+    padding-left: 20px ;
+}
+.footer-left a{
+    margin-right: 15px;
+    color: #999999 ;
+}
+.footer-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.footer-right a{
+    margin-left: 15px;
+    color: #999999 ;
+}
